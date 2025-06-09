@@ -6,11 +6,18 @@ Highlight lines in Emacs buffers based on how recently they were modified in Git
 
 * 🎨 Colors lines by **Git commit age**: newer = redder, older = greener.
 * 🔢 Adds a suffix showing how many lines were introduced in the **same commit**.
+* Non-intrusive: overlays are temporary and easy to clear.
 * 🕵️ Great for reviewing:
   * Recently modified code
   * Stale sections untouched for years
   * Commits with broad footprint in a file
-  * Non-intrusive: overlays are temporary and easy to clear.
+
+## 🔍 Why This Tool Helps
+
+* 🕒 Surfaces recent changes – focus reviews on what's new.
+* 📦 Reveals bulk changes – blocks of lines from the same commit.
+* 🧩 Enhances merge conflict awareness – shows freshness of edits.
+* 🧭 Aids team collaboration – clarifies who last worked on specific chunks.
 
 ## 📦 Installation
 
